@@ -1,0 +1,30 @@
+{
+  "name": "babel-proj-tmpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "babel": "babel ./lib -d ./dist",
+    "watch": "babel ./lib -d ./dist -w"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "builden",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babel-polyfill": "^6.0.16",
+    "eslint": "^1.9.0",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-plugin-react": "^3.8.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "cheerio": "^0.19.0",
+    "fs-extra": "^0.26.2",
+    "moment": "^2.10.6",
+    "superagent": "^1.4.0",
+    "superagent-proxy": "^1.0.0"
+  }
+}
